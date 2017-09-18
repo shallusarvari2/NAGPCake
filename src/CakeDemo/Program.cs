@@ -7,7 +7,7 @@ namespace CakeDemo
     {
         static void Main(string[] args)
         {
-            var name = args.Any() ? args[0] : "World!";
+            var name = args.Any() ? args[0] : "World";
             Console.WriteLine(SayHello(name));
         }
 
